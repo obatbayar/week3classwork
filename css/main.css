@@ -1,8 +1,7 @@
 li {
 	display: inline-block;
 	list-style: none;
-	margin: 10px;
-
+	padding: 40px;
 }
 ul {
 	text-align: center;
@@ -19,20 +18,33 @@ div {
 nav {
 	background-color: yellow;
 	height: 100%;
-	padding: 15px 40px;
+	padding: 5px 40px;
 }
 .button {
 	background-color: grey;
-	padding: 15px 32px;
+	padding: 0;
 }
 #face {
 	font-size: 15px;
 	background-color: blue;
-	border-radius: 40%;
+	border-radius: 20%;
+	padding: 5px 10px;
+	margin: 30px;
 }
 #insta {
+	font-size: 20px;
 	background-color: red;
+	border-radius: 30%;
+	padding: 5px 10px;
+
 }
 #twitt {
+	font-size: 40px;
 	background-color: orange;
+	border-radius: 35%;
+	padding: 5px 10px;
+	margin: 40px;
+}
+body {
+	margin: 0;
 }
